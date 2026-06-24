@@ -1,0 +1,94 @@
+SummerPEP
+1)Print Numbers from 1 to 10 
+2)find sum of N number
+3)Find the largest of 3 number
+4)check odd or even
+5) reverse string 
+
+
+class abc
+{
+public static void main(String[] args)
+{
+for(int i=1;i<=10;i++)
+{
+System.out.println(i);
+}
+}
+------------------------
+class a
+{
+public static void main(String[] args)
+{
+int s=0;
+for(int i=1;i<=10;i++)
+{
+s=s+i;
+}
+System.out.println(s);
+
+----------------
+
+if(a>=b && a>= c)
+{
+l=a;
+}
+else if(b>=a && b>= c)
+{
+l=b;
+}
+else
+{
+l=c;
+}
+---------------------------------------
+String str="hello";
+String rev= new StringBuilder(str).reverse().toString();
+System.out.println(rev);
+--------------------------------------------------
+
+for(int i=1;i<10;i++)
+{
+if(i%2==0)
+{
+System.out.println("Even");
+}
+else
+{
+System.out.println("Odd");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+s
